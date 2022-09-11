@@ -1,0 +1,73 @@
+﻿[
+    {
+        "Id": 1,
+        "Name": "United States of America",
+        "Description": "Commonly known as the United States (U.S. or US) or America, is a transcontinental country located primarily in North America. It consists of 50 states, a federal district, five major unincorporated territories, nine minor outlying islands,[i] and 326 Indian reservations with limited sovereignty.",
+        "Continent": "North America",
+        "Capital": "Washington",
+        "Size": 9826675,
+        "Population": 301693000,
+        "Image": "us.png"
+    },
+    {
+        "Id": 2,
+        "Name": "Japan",
+        "Description": "Is an island country in East Asia. It is situated in the northwest Pacific Ocean, and is bordered on the west by the Sea of Japan, while extending from the Sea of Okhotsk in the north toward the East China Sea, Philippine Sea, and Taiwan in the south.",
+        "Continent": "Asia",
+        "Capital": "Tokyo",
+        "Size": 377975,
+        "Population": 126226568,
+        "Image": "jp.png"
+    },
+    {
+        "Id": 3,
+        "Name": "Niger",
+        "Description": "Is a landlocked country in West Africa. It is a unitary state bordered by Libya to the northeast, Chad to the east, Nigeria to the south, Benin and Burkina Faso to the southwest, Mali to the west, and Algeria to the northwest.",
+        "Continent": "Africa",
+        "Capital": "Niamey",
+        "Size": 1267000,
+        "Population": 24112707,
+        "Image": "ne.png"
+    },
+    {
+        "Id": 4,
+        "Name": "Italy",
+        "Description": "Is a country that consists of a peninsula delimited by the Alps and several islands surrounding it;[note 1] its territory largely coincides with the homonymous geographical region. Caution: Never put pineapple on pizza near italian.",
+        "Continent": "Europe",
+        "Capital": "Rome",
+        "Size": 301230,
+        "Population": 58983000,
+        "Image": "it.png"
+    },
+    {
+        "Id": 5,
+        "Name": "Chad",
+        "Description": "Is a landlocked country at the crossroads of North and Central Africa. It is bordered by Libya to the north, Sudan to the east, the Central African Republic to the south, Cameroon to the south-west, Nigeria to the southwest (at Lake Chad), and Niger to the west.",
+        "Continent": "Africa",
+        "Capital": "N'Djamena",
+        "Size": 1284000,
+        "Population": 16244513,
+        "Image": "td.png"
+    },
+    {
+        "Id": 6,
+        "Name": "Saudi Arabia",
+        "Description": "Is a country on the Arabian Peninsula in Western Asia. It has a land area of about 2,150,000 km2, making it the fifth-largest country in Asia, the second-largest in the Arab world, and the largest in Western Asia.",
+        "Continent": "Asia",
+        "Capital": "Riyadh",
+        "Size": 2149690,
+        "Population": 38401000,
+        "Image": "sa.png"
+    },
+    {
+        "Id": 7,
+        "Name": "Egypt",
+        "Description": "Is a transcontinental country spanning the northeast corner of Africa and southwest corner of Asia via a land bridge formed by the Sinai Peninsula. It is bordered by the Mediterranean Sea to the north, the Gaza Strip of Palestine and Israel to the northeast, the Red Sea to the east, Sudan to the south, and Libya to the west. The Gulf of Aqaba in the northeast separates Egypt from Jordan and Saudi Arabia. Cairo is the capital and largest city of Egypt, while Alexandria, the second-largest city, is an important industrial and tourist hub at the Mediterranean coast. At approximately 100 million inhabitants, Egypt is the 14th-most populated country in the world.",
+        "Continent": "Africa",
+        "Capital": "Cairo",
+        "Size": 1010408,
+        "Population": 102674145,
+        "Image": "eg.png"
+    }
+
+]

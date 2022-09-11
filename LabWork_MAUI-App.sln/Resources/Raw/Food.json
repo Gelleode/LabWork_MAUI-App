@@ -1,0 +1,43 @@
+﻿[
+    {
+        "Id": 1,
+        "CountryId": 1,
+        "Name": "Hot dog",
+        "Description": "A hot dog is a food consisting of a grilled or steamed sausage served in the slit of a partially sliced bun. The term hot dog can also refer to the sausage itself.",
+        "Ingredients": "Sausage, bun and sauces.",
+        "Recipe": "Heat grill to high. Grill the hot dogs until golden brown on all sides. Place in buns and top with your favorite sauces."
+    },
+    {
+        "Id": 2,
+        "CountryId": 2,
+        "Name": "Curry rice",
+        "Description": "Along with the sauce, a wide variety of vegetables and meats are used to make Japanese curry. The basic vegetables are onions, carrots, and potatoes. Beef, pork, and chicken are the most popular meat choices.",
+        "Ingredients": "Onions, curry, oil, parboiled rice, chicken broth, salt",
+        "Recipe": "Heat small sauce pan and add oil over medium/hot heat. Cook onions until soft; add curry and and rice and saute for 1-2 minute. Add salt and broth and let come to a boil over high heat, as soon as it boils turn heat all the way down and cover for approx 20 min, until done. Keep the lid on and try to avoid to peek too many times. Remove from heat and let sit of 5-10 minute."
+    },
+    {
+        "Id": 3,
+        "CountryId": 2,
+        "Name": "Sushi",
+        "Description": "Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanied by a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is \"sushi rice\".",
+        "Ingredients": "Rice, nori, gu",
+        "Recipe": "Basically add this all together, roll and cut"
+    },
+    {
+        "Id": 4,
+        "CountryId": 6,
+        "Name": "Kabsa",
+        "Description": "Is an Arab mixed rice dish, served on a communal platter, that originates from Saudi Arabia. The dish is also popularly known as makbūs/machbūs. The dish is made with rice and meat.",
+        "Ingredients": "",
+        "Recipe": ""
+    },
+    {
+        "Id": 5,
+        "CountryId": 1,
+        "Name": "Hot dog",
+        "Description": "",
+        "Ingredients": "",
+        "Recipe": ""
+    }
+
+]
