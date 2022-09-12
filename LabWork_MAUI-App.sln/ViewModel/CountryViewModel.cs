@@ -10,7 +10,6 @@ public class CountryViewModel : BindableObject
     private Food _selectedFood;
 
     CountryService countryService = new ();
-    private FoodService _foodService = new();
 
     public ObservableCollection<Food> Foods { get; } = new();
 
@@ -32,7 +31,7 @@ public class CountryViewModel : BindableObject
             _selectedCountry = value;
             Desc = value?.Description;
             OnPropertyChanged(nameof(Desc));
-            GetCountryFood(_selectedCountry);
+            GetFoodAsync();
         }
     }
 
@@ -47,17 +46,18 @@ public class CountryViewModel : BindableObject
         }
     }
 
-    async Task GetCountryFood(Country country)
+    async Task GetFoodAsync()
     {
         try
         {
-            IEnumerable<Food> foods = await _foodService.GetFood();
+            IEnumerable<Food> foods = new List<Food>();
+
             if (Foods.Count != 0)
                 Foods.Clear();
-            foreach (var food in foods)
+            if (SelectedCountry.Food == null) return;
+            foreach (var food in SelectedCountry.Food)
             {
-                if (food.CountryId == country.Id)
-                    Foods.Add(food);
+                Foods.Add(food);
             }
         }
         catch (Exception ex)
@@ -65,7 +65,6 @@ public class CountryViewModel : BindableObject
             await Shell.Current.DisplayAlert("Ошибка", $"Что то пошло не так: {ex.Message}", "ОК");
         }
     }
-
     async Task GetCountryAsync()
     {
         try

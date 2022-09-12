@@ -10,4 +10,5 @@ public class Country
     public int Size { get; set; }
     public int Population { get; set; }
     public string Image { get; set; }
+    public IEnumerable<Food> Food { get; set; }
 }
