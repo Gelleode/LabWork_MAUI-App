@@ -7,8 +7,14 @@ public partial class MainPage : ContentPage
     public MainPage()
 	{
 		InitializeComponent();
-
-        BindingContext = new CountryViewModel();
+        try
+        {
+            var barberViewModel = new BarberViewModel();
+        }
+        catch (Exception ex)
+        {
+            Shell.Current.DisplayAlert("Error", ex.Message, "OK");
+        }
     }
 }
 

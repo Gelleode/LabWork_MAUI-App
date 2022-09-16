@@ -54,12 +54,6 @@
 	  <None Remove="Resources\Images\ne.png" />
 	  <None Remove="Resources\Images\td.png" />
 	  <None Remove="Resources\Images\us.png" />
-	  <None Remove="Resources\Raw\Country.json" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Services\" />
-	  <Folder Include="ViewModel\" />
 	</ItemGroup>
 
 </Project>
