@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LabWork_MAUI_App.sln.MainPage">
 
-    <StackLayout>
+    <VerticalStackLayout>
         <Grid ColumnDefinitions="*,*">
             <ScrollView Grid.Column="0" VerticalScrollBarVisibility="Always">
-                <CollectionView ItemsSource="{Binding Countries}"
-                                SelectedItem="{Binding SelectedCountry}"
+                <CollectionView ItemsSource="{Binding Barbers}"
+                                SelectedItem="{Binding SelectedBarber}"
                                 SelectionMode="Single">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
@@ -42,21 +42,6 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </ScrollView>
-            <ScrollView Grid.Column="1">
-                <Grid RowDefinitions="*,*,*">
-                    <Label Text="{Binding Desc}"
-                           FontSize="Medium"
-                           HorizontalTextAlignment="Center"/>
-                    <CollectionView Grid.Row="1"  ItemsSource="{Binding Foods}" SelectedItem="{Binding SelectedFood}" SelectionMode="Single">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <Label Text="{Binding Name}"/>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
-                    <Label Text="{Binding FoodDesc}" Grid.Row="2"/>
-                </Grid>
-            </ScrollView>
         </Grid>
-    </StackLayout>
+    </VerticalStackLayout>
 </ContentPage>

@@ -8,10 +8,25 @@ namespace LabWork_MAUI_App.sln.Services
 
         public BarberService()
         {
-            
             _barbers = new List<Barber>
             {
-                new Barber{ Id = Convert.ToInt32(Guid.NewGuid()), Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"}
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
+                new Barber{ Id = 1, Name = "Даниил", Rating = 5, RatingCounter = 149, PhotoPath = "daniil.png"},
             };
         }
 
